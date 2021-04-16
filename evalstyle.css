@@ -1,0 +1,162 @@
+   
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12.5px;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   }
+
+a {
+    color: black;   }
+
+a:hover {
+    color: black;
+    text-decoration: none;  }
+
+nav input {
+    display: none;  }
+
+nav label {
+    display: none;  }
+
+.navlogo {
+    margin: auto;
+    float: left;    }
+
+.navmenu {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    list-style-type: none;  }
+
+.navmenu li {
+    display: inline-block;
+    padding-right: 30px;    }
+
+header {
+    background: no-repeat center / 100% url("media/plates-header.jpg");
+    z-index: 10;    }
+
+.headertext {
+    background-color: rgb(60, 60, 60);
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    padding: 100px 30px 100px 30px;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    }
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    text-align: center;
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+    width: 15%; }
+
+header p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.5px;
+    line-height: 175%;
+    padding-top: 10px;  }
+
+.vitrine {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    width: 73%;
+    padding: 50px 0 50px 0;
+    margin: auto;
+    text-align: center; }
+
+.vitrine img {
+    margin: auto;
+    object-fit: cover;
+    height: 230px;
+    width: 330px;
+    text-align: center;
+    padding-bottom: 10px;   }
+
+h5 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Calibri';
+    font-size: 16px;    }
+
+h6 {
+    color: grey;
+    font-size: 13.5px;
+    font-weight: 500;
+    letter-spacing: 1px;    }
+
+.article {
+    text-align: center;
+    height: 350px;  }
+
+.article > p {
+    color: rgb(177, 174, 174);
+    font-size: 18px;
+    font-family: Constantia, "Lucida Bright", Lucidabright, serif, sans-serif;  }
+
+.flux {
+    position: relative;
+    text-align: center; }
+
+.flux:hover img{
+    opacity: 0.5;   }
+
+.flux:hover input {
+    display: block; }
+
+.flux input {
+    position: absolute;
+    display: none;  }
+
+.viewdetails {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-size: 12.5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;       }
+
+.addtocart {
+    background-color: rgb(99, 99, 99);
+    color: white;
+    font-size: 12.5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   }  

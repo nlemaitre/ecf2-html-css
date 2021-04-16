@@ -1,0 +1,118 @@
+.cart {
+    width: 150px;
+    height: 17px;
+    margin: auto;
+    display: inline-block;  }
+
+.mycart2 {
+    display: none;  }
+
+.mycartwindow {
+    background-color: white;
+    border: 1.2px solid lightgrey;
+    border-top: 1.2px solid white;
+    width: 400px;
+    margin-top: 5px;
+    display: none;
+    float: right;
+    position: absolute;
+    list-style-type: none;
+    padding: 20.5px;
+    right: 10.5px;
+    top: 50%;   
+    z-index: 1000px;    }
+
+.cart:hover .mycartwindow {
+    display: inline-block;  }
+
+.mycartwindow li {
+    width: 100%;
+    display: grid;
+    float: none;
+    text-align: left;
+    grid-template-columns: 23% 72% 5%;
+    margin-bottom: 10px;
+    padding-bottom: 20px;   }
+
+.mycartwindow img {
+    width: auto;
+    margin: auto;
+    height: 80px;   }
+
+.windowtitle {
+    font-size: 12.5px;
+    letter-spacing: 1.5px;  }
+
+.windowtitle > span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;    }
+
+.windowtype {
+    font-size: 0.8em;
+    color: rgb(170, 170, 170)   }
+
+.windowcancel {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;   }
+
+.windowcancel:hover {
+    opacity: 1; }
+  
+.windowcancel:before, .windowcancel:after {
+    position: absolute;
+    left: 5px;
+    content: ' ';
+    height: 13px;
+    width: 2px;
+    background-color: #333; }
+
+.windowcancel:before {
+    transform: rotate(45deg);   }
+
+.windowcancel:after {
+    transform: rotate(-45deg);  }
+
+.windowtotal {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid lightgrey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: lightgrey;   }
+
+.window-choice-checkout {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;    }
+
+.windowprice {
+    font-family: 'Calibri'; }
+
+.viewcart {
+    padding: 15px 45px 15px 45px;
+    color: #2e2d2d;
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12.5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;    }
+
+.checkout {
+    padding: 15px 45px 15px 45px;
+    background-color: #2e2d2d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12.5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;    }
+
+.checkout a {
+    color: white;    }
+
+.checkout:hover {
+    text-decoration: none;
+    color: white;    }

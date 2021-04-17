@@ -66,7 +66,7 @@
     content: ' ';
     height: 13px;
     width: 2px;
-    background-color: #333; }
+    background-color: rgb(41, 40, 40); }
 
 .windowcancel:before {
     transform: rotate(45deg);   }
@@ -95,8 +95,8 @@
 
 .viewcart {
     padding: 15px 45px 15px 45px;
-    color: #2e2d2d;
-    background-color: #fff;
+    color: rgb(41, 40, 40);
+    background-color:white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12.5px;
     text-transform: uppercase;
@@ -104,11 +104,11 @@
 
 .checkout {
     padding: 15px 45px 15px 45px;
-    background-color: #2e2d2d;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(41, 40, 40);
     font-size: 12.5px;
     text-transform: uppercase;
-    letter-spacing: 2px;    }
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    }
 
 .checkout a {
     color: white;    }

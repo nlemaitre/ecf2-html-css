@@ -1,39 +1,4 @@
 
-nav {
-    width: 100%;
-    height: 100px;
-    overflow: hidden;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 12.5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;    }
-
-nav input {
-    display: none;  }
-
-nav label {
-    display: none;  }
-
-.navlogo {
-    margin: auto;
-    float: left;    }
-
-.navmenu {
-    display: flex;
-    width: 100%;
-    margin: auto;
-    list-style-type: none;
-    position: relative;
-    justify-content: center;    }
-
-.navmenu li {
-    display: inline-block;
-    padding-right: 30px;    }
-
 .cart {
     display: inline-block;
     margin: auto;
@@ -146,3 +111,45 @@ a {
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;    }
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12.5px;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   }
+        
+a {
+    color: black;   }
+        
+a:hover {
+    color: black;
+    text-decoration: none;  }
+        
+nav input {
+    display: none;  }
+        
+nav label {
+    display: none;  }
+        
+.navlogo {
+    margin: auto;
+    float: left;    }
+        
+.navmenu {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    list-style-type: none;  }
+        
+.navmenu li {
+    display: inline-block;
+    padding-right: 30px;    }
